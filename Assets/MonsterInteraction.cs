@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MonsterInteraction : MonoBehaviour
 {
     public GameObject pressE_UI;       // pressE_UI"
     public MonsterDialogue dialogue;   // dialouge script
+
 
     private bool isPlayerNear = false;
 

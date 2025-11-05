@@ -14,6 +14,20 @@ public class MonsterDialogue : MonoBehaviour
 
     private int index = 0;
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Skip();
+        }
+    }
+
+    public void Skip()
+    {
+        Debug.Log(1232435);
+        dialogueUI.SetActive(false);
+    }
+
     public void StartDialogue()
     {
         dialogueUI.SetActive(true);
